@@ -140,7 +140,7 @@
 &none  &none  &none  &none      &none      &none  &none  &none     &kp UP_ARROW    &none      &none  &none
 &none  &none  &none  &mkp RCLK  &mkp LCLK  &none  &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &none  &none
 &none  &none  &none  &none      &none      &none  &none  &none     &none           &none      &none  &none
-                     &to 1      &none      &none  &none  &none
+                     &to 0      &none      &none  &none  &none
             >;
         };
 
