@@ -138,7 +138,7 @@
             bindings = <
 &none  &none  &none     &kp UP    &none      &none  &none      &none      &kp UP    &none      &none  &none
 &none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none      &kp LEFT   &kp DOWN  &kp RIGHT  &none  &none
-&none  &none  &none     &none     &none      &none  &none      &mwh SCROLL_UP      &mwh SCROLL_DOWN     &none      &none  &none
+&none  &none  &none     &none     &none      &none  &none      &none    &none     &none      &none  &none
                         &to 0     &none      &none  &mkp RCLK  &mkp LCLK
             >;
         };
