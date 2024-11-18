@@ -41,5 +41,8 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
+        // xy-swap;
+        y-invert;
+        x-invert;
     };
 };
