@@ -23,15 +23,15 @@
 
         printscreen {
             timeout-ms = <50>;
-            key-positions = <4 3 2>; // KP: NM
-            bindings = <&kp RBRC>;
+            key-positions = <4 3 5>; // KP: NM
+            bindings = <&printscreen>;
             layers = <1 2 2 3>;
         };
 
-        combo_lpar {
+        crop {
             timeout-ms = <50>;
-            key-positions = <16 17>; // KP: FG
-            bindings = <&mt RPAR LPAR>;
+            key-positions = <2 3 4>; // KP: FG
+            bindings = <&kp RG(LS(N5))>;
             layers = <1 2 2 3>;
         };
 
