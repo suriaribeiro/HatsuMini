@@ -18,28 +18,28 @@
             timeout-ms = <50>;
             key-positions = <37 40>; // KP: VB
             bindings = <&kp MINUS>;
-            layers = <1 2 2 3>;
+            layers = <1 2 2 3 0 4>;
         };
 
         crop {
             timeout-ms = <50>;
             key-positions = <2 3 4>; // KP: FG
             bindings = <&kp RG(LS(N5))>;
-            layers = <1 2 2 3>;
+            layers = <1 2 2 3 0 4>;
         };
 
         parentL {
             timeout-ms = <50>;
             key-positions = <9 8>;
             bindings = <&kp RPAR>;
-            layers = <1 2 2 3>;
+            layers = <0 1>;
         };
 
         parentR {
             timeout-ms = <50>;
             key-positions = <7 8>; // KP: RT
             bindings = <&kp LEFT_PARENTHESIS>;  // 可以用CMD+这个单手返回到代码上一个编辑的地方 或者网页返回
-            layers = <1 2 2 3>;
+            layers = <1 2 2 3 0 4>;
         };
 
         combo_rbkt {
