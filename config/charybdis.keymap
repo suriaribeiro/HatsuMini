@@ -110,9 +110,9 @@
         number_layer {
             label = "NUMBER";
             bindings = <
-&none  &kp TAB            &kp N7  &kp N8   &kp N9  &kp EQUAL  &kp DOLLAR            &euro           &kp UP_ARROW    &trans    &trans             &none
-&none  &kp DOUBLE_QUOTES  &kp N4  &kp N5   &kp N6  &kp PLUS   &kp LA(LS(NUMBER_2))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp LALT  &kp RIGHT_CONTROL  &none
-&none  &kp N0             &kp N1  &kp N2   &kp N3  &kp DOT    &trans                &trans          &trans          &trans    &trans             &none
+&trans  &kp TAB            &kp N7  &kp N8   &kp N9  &kp EQUAL  &kp DOLLAR            &euro           &kp UP_ARROW    &trans    &trans             &trans
+&trans  &kp DOUBLE_QUOTES  &kp N4  &kp N5   &kp N6  &kp PLUS   &kp LA(LS(NUMBER_2))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp LALT  &kp RIGHT_CONTROL  &trans
+&trans  &kp N0             &kp N1  &kp N2   &kp N3  &kp DOT    &trans                &trans          &trans          &trans    &trans             &trans
                                   &kp TAB  &kp N0  &trans     &trans                &trans
             >;
         };
@@ -121,18 +121,18 @@
             label = "FN";
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &kp F10  &kp F11  &kp F12  &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&sys_reset    &none         &kp F7   &kp F8   &kp F9   &out OUT_USB  &out OUT_USB  &none         &none         &none         &none         &sys_reset
-&none         &none         &kp F4   &kp F5   &kp F6   &out OUT_BLE  &out OUT_BLE  &none         &none         &none         &none         &none
-                                     &kp F1   &kp F2   &kp F3        &none         &none
+&sys_reset    &trans         &kp F7   &kp F8   &kp F9   &out OUT_USB  &out OUT_USB  &trans         &trans         &trans         &trans         &sys_reset
+&trans         &trans         &kp F4   &kp F5   &kp F6   &out OUT_BLE  &out OUT_BLE  &trans         &trans         &trans         &trans         &trans
+                                     &kp F1   &kp F2   &kp F3        &trans         &trans
             >;
         };
 
         mouse {
             label = "HOTKEY";
             bindings = <
-&trans  &none  &none  &none  &none      &none      &none      &none      &kp UP_ARROW  &none      &none  &trans
-&trans  &none  &none  &none  &none      &none      &none      &trans     &trans        &kp RIGHT  &none  &trans
-&trans  &none  &none  &none  &none      &none      &none      &trans     &trans        &none      &none  &trans
+&trans  &trans  &trans  &trans  &trans      &trans      &trans      &trans      &msc SCRL_UP  &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans      &trans      &trans      &trans     &msc SCRL_DOWN    &trans &trans  &trans  
+&trans  &trans  &trans  &trans  &trans      &trans      &trans      &trans     &trans        &trans      &trans  &trans
                       &to 0  &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp LCLK
             >;
         };
