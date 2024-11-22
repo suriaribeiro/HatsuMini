@@ -96,7 +96,7 @@
         email: email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp S &kp U &kp R &kp I &kp A &kp R &kp I &kp B &kp E &kp I &kp R &kp O &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            bindings = <&kp S &kp U &kp R &kp I &kp A &kp R &kp I &kp B &kp E &kp I &kp R &kp O &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL";
         };
     };
