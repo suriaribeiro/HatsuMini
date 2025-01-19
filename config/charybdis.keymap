@@ -100,9 +100,9 @@
         mouse {
             label = "HOTKEY";
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_UP    &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_DOWN  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans          &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_UP  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_DOWN          &trans  &trans  &trans
                        &mkp MCLK &mkp RCLK    &mkp LCLK  &mkp RCLK  &mkp LCLK
             >;
         };
