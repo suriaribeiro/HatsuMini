@@ -73,16 +73,16 @@
 &lt 3 ESC  &kp Q  &kp W  &kp E        &kp R              &kp T        &kp Y      &kp U        &kp I    &kp O         &kp P          &kp BACKSPACE
 &kp TAB    &kp A  &kp S  &kp D        &kp F              &kp G        &kp H      &kp J        &kp K    &lt 3 L       &kp SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C        &kp V              &kp B        &kp N      &kp M        &lt 3 COMMA          &lt 3 PERIOD  &kp SLASH      &kp RSHFT
-                         &kp LCTRL  &lt 3 RIGHT_COMMAND  &lt 1 SPACE  &mkp LCLK  &lt 1 ENTER
+                         &kp LCTRL    &lt 1 SPACE &lt 3 RIGHT_COMMAND &mkp LCLK  &lt 1 ENTER
             >;
         };
 
         number_layer {
             label = "NUMBER";
             bindings = <
-&trans  &kp AT             &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp DOLLAR  &euro           &kp UP_ARROW    &trans           &trans  &trans
-&trans  &kp DOUBLE_QUOTES  &kp N4  &kp N5  &kp N6  &kp PLUS   &email      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp N0             &kp N1  &kp N2  &kp N3  &kp DOT    &email      &trans          &trans          &trans           &trans  &trans
+&trans  &kp AT             &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp DOLLAR  &euro           &kp UP_ARROW    &trans           &trans  &kp C_VOLUME_UP
+&trans  &kp DOUBLE_QUOTES  &kp N4  &kp N5  &kp N6  &kp PLUS   &email      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp C_VOLUME_DOWN
+&trans  &kp N0             &kp N1  &kp N2  &kp N3  &kp DOT    &email      &trans          &trans          &trans           &trans  &kp C_MUTE
                                    &trans  &trans  &trans     &trans      &trans
             >;
         };
@@ -103,7 +103,7 @@
 &trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_UP    &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_DOWN  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans          &trans  &trans  &trans
-                       &mkp MCLK &mkp RCLK    &mkp LCLK  &mkp RCLK  &mkp LCLK
+                       &mkp MCLK    &mkp LCLK &mkp RCLK  &mkp RCLK  &mkp LCLK
             >;
         };
 
@@ -112,7 +112,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans
-                        &trans  &trans  &trans  &trans  &to 0
+                        &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
