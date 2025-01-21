@@ -70,10 +70,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&lt 3 ESC  &kp Q  &kp W  &kp E        &kp R              &kp T        &kp Y      &kp U        &mt K_SCROLL_UP I    &kp O         &kp P          &kp BACKSPACE
-&kp TAB    &kp A  &kp S  &kp D        &kp F              &kp G        &kp H      &kp J        &mt K_SCROLL_DOWN K  &kp L         &kp SEMICOLON  &kp SQT
+&lt 3 ESC  &kp Q  &kp W  &kp E        &kp R              &kp T        &kp Y      &kp U        &kp I    &kp O         &kp P          &kp BACKSPACE
+&kp TAB    &kp A  &kp S  &kp D        &kp F              &kp G        &kp H      &kp J        &kp K    &lt 3 L       &kp SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C        &kp V              &kp B        &kp N      &kp M        &lt 3 COMMA          &lt 3 PERIOD  &kp SLASH      &kp RSHFT
-                         &lt 2 LCTRL  &kp RIGHT_COMMAND  &lt 1 SPACE  &mkp LCLK  &lt 1 ENTER
+                         &kp LCTRL  &lt 3 RIGHT_COMMAND  &lt 1 SPACE  &mkp LCLK  &lt 1 ENTER
             >;
         };
 
@@ -100,9 +100,9 @@
         mouse {
             label = "HOTKEY";
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_UP  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_DOWN          &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_UP    &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_DOWN  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans          &trans  &trans  &trans
                        &mkp MCLK &mkp RCLK    &mkp LCLK  &mkp RCLK  &mkp LCLK
             >;
         };
