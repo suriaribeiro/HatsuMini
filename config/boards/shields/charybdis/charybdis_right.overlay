@@ -67,7 +67,7 @@
         device = <&trackball>;
      // xy-swap;
       x-invert;
-      y-invert;
+     // y-invert;
 
 
     };
