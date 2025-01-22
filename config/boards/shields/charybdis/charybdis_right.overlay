@@ -66,7 +66,7 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
      // xy-swap;
-      x-invert;
+     // x-invert;
      // y-invert;
 
 
