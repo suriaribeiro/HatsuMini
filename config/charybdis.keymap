@@ -80,9 +80,9 @@
         number_layer {
             label = "NUMBER";
             bindings = <
-&trans  &kp AT             &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp DOLLAR  &euro           &kp UP_ARROW    &trans           &trans  &kp C_VOLUME_UP
-&trans  &kp DOUBLE_QUOTES  &kp N4  &kp N5  &kp N6  &kp PLUS   &email      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp C_VOLUME_DOWN
-&trans  &kp N0             &kp N1  &kp N2  &kp N3  &kp DOT    &email      &trans          &trans          &trans           &trans  &kp C_MUTE
+&trans  &kp AT             &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp DOLLAR  &euro           &kp UP_ARROW    &trans           &trans  &trans
+&trans  &kp DOUBLE_QUOTES  &kp N4  &kp N5  &kp N6  &kp PLUS   &email      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &kp N0             &kp N1  &kp N2  &kp N3  &kp DOT    &email      &trans          &trans          &trans           &trans  &trans
                                    &trans  &trans  &trans     &trans      &trans
             >;
         };
@@ -100,10 +100,10 @@
         mouse {
             label = "HOTKEY";
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_UP    &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &msc SCRL_DOWN  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans          &trans  &trans  &trans
-                       &mkp MCLK    &mkp LCLK &mkp RCLK  &mkp RCLK  &mkp LCLK
+&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_UP &trans     &trans     &msc SCRL_UP    &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_DOWN &trans     &trans     &msc SCRL_DOWN  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &kp C_MUTE &trans     &trans     &trans          &trans  &trans  &trans
+                       &mkp RCLK    &mkp LCLK &mkp MCLK  &mkp RCLK  &mkp LCLK
             >;
         };
 
