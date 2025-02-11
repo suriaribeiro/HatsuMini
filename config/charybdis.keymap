@@ -47,8 +47,8 @@
             layers = <1 2 2 3 0 4>;
         };
 
-        rclick {
-            bindings = <&mkp RCLK>;
+        lclick {
+            bindings = <&mkp LCLK>;
             key-positions = <39 40>;
         };
     };
