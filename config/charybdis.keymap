@@ -43,7 +43,7 @@
         parentR {
             timeout-ms = <50>;
             key-positions = <7 8>; // KP: RT
-            bindings = <&kp LEFT_PARENTHESIS>;  // 可以用CMD+这个单手返回到代码上一个编辑的地方 或者网页返回
+            bindings = <&kp LEFT_PARENTHESIS>;
             layers = <1 2 2 3 0 4>;
         };
 
@@ -109,8 +109,8 @@
         mouse {
             label = "HOTKEY";
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_UP &trans     &trans     &msc SCRL_UP    &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_DOWN &trans     &trans     &msc SCRL_DOWN  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_UP &msc SCRL_UP     &trans     &mkp MCLK    &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_DOWN &msc SCRL_DOWN     &RCLK     &mkp LCLK  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &kp C_MUTE &trans     &trans     &trans          &trans  &trans  &trans
                        &mkp RCLK    &mkp LCLK &mkp MCLK  &mkp RCLK  &mkp LCLK
             >;
